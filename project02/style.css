@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(60deg,#C70039,#F08080);
+height: 100vh
+}
+a{
+	text-decoration: none;
+}
+.menubar{
+	text-align: center;
+}
+
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	/*margin: 10px 30px;*/
+
+}
+.menubar ul li a{
+	color: white;
+	transition: 0.5s;
+	
+
+}
+.menubar ul li a:hover{
+	color: black;
+	transition: 0.5s;
+	transform: scale(0.6);
+	transition: 0.5s;
+
+}
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 30px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width:60px;
+	background-color: #283747   ; 
+	color: #F08080;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 25px;
+	transition: 0.5s;
+	position: fixed;
+	z-index: 9999;
+
+}
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+	background-color: #2C3E50 ;
+
+}
+.sss{
+	width:400px;
+	height:300px;
+	margin: 0px auto;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 32px 15px;
+}
+h2{
+	margin: 0;
+	margin-bottom: 22px;
+}
+input {
+	    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    
+}
+input:focus{
+	outline:
+}
+
+
+.sub{
+	background: black;
+	color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.sub:hover{
+	background: red;
+	border: 1px solid red;
+	transition: 0.6s;
+
+
+}
+.post{
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.tit{
+	position:absolute; 
+	top: 40px;
+	left: 40px;
+	color: white;
+	
+
+
+ }
